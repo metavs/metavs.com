@@ -123,7 +123,7 @@
 
             <section class='page --flex-horizontal' data-bind='{"ref": "site.scrolltop"}' style='display: flex;'>
                 <section>
-                    <div class="container --flex-column --max-width-1200px" style='margin-top: 84vh;'>
+                    <div class="container --flex-column --max-width-1200px" style='margin-top: 72vh;'>
                         <div class="row --flex-center">
                             <div class="--absolute-center" style='background-color: var(--color-black-500);filter: blur(64px);height: 16vh;opacity: 0.8;width: 48vw;z-index: 0;'></div>
 
@@ -260,7 +260,7 @@
                                     <div class="group group--column group--offset-top --margin-200">
                                         <div class="card group-item --active --background-grey-300 --background-state --background-white --border-border --border-left --border-primary-400 --border-radius-500 --border-state-inactive --border-width-500 --flex-row --padding --padding-500" data-bind='{"refs": {"frame": "one"}}' data-click='frame' style='border-radius: 0 5px 5px 0;'>
                                             <div class="text-list --width --width-full">
-                                                <div class="text --margin-bottom --margin-200 --text-bold --text-500">
+                                                <div class="text --margin-bottom --margin-100 --text-bold --text-500">
                                                     Series 01
                                                 </div>
 
@@ -411,33 +411,41 @@
 
                                     <div class="frames" style='background-image: url(./images/background.png);background-attachment: fixed;background-size: cover;'>
                                         <div class="frame --active" data-bind='{"ref": "one"}'>
+                                            <div class="row --flex-center --padding --padding-600" style='box-shadow: 0 0 0 1px var(--color-grey-400)'>
+                                                <video autoplay loop muted style='max-width: 480px;width: 100%;z-index: 1;'>
+                                                    <source src="./videos/pack-1.webm" type="video/webm">
+                                                </video>
+
+                                                <div class="banner --background-black-400 --opacity-6" style='z-index: 0;'></div>
+                                            </div>
+
                                             <div class="group group--grid group--offset-top --margin-border-width-300" data-grid='3'>
-                                                <div class="group-item" style='box-shadow: 0 0 0 1px var(--color-grey-400)'>
+                                                <div class="group-item" style='box-shadow: 0 0 0 2px var(--color-grey-400)'>
                                                     <div class='row' style='padding-bottom: 100%'>
                                                         <img src="./images/series/01/1.png" alt="" class="--absolute-center" style='max-width: 90%'>
                                                     </div>
                                                 </div>
-                                                <div class="group-item" style='box-shadow: 0 0 0 1px var(--color-grey-400)'>
+                                                <div class="group-item" style='box-shadow: 0 0 0 2px var(--color-grey-400)'>
                                                     <div class='row' style='padding-bottom: 100%'>
                                                         <img src="./images/series/01/2.png" alt="" class="--absolute-center" style='max-width: 90%'>
                                                     </div>
                                                 </div>
-                                                <div class="group-item" style='box-shadow: 0 0 0 1px var(--color-grey-400)'>
+                                                <div class="group-item" style='box-shadow: 0 0 0 2px var(--color-grey-400)'>
                                                     <div class='row' style='padding-bottom: 100%'>
                                                         <img src="./images/series/01/3.png" alt="" class="--absolute-center" style='max-width: 90%'>
                                                     </div>
                                                 </div>
-                                                <div class="group-item" style='box-shadow: 0 0 0 1px var(--color-grey-400)'>
+                                                <div class="group-item" style='box-shadow: 0 0 0 2px var(--color-grey-400)'>
                                                     <div class='row' style='padding-bottom: 100%'>
                                                         <img src="./images/series/01/4.png" alt="" class="--absolute-center" style='max-width: 90%'>
                                                     </div>
                                                 </div>
-                                                <div class="group-item" style='box-shadow: 0 0 0 1px var(--color-grey-400)'>
+                                                <div class="group-item" style='box-shadow: 0 0 0 2px var(--color-grey-400)'>
                                                     <div class='row' style='padding-bottom: 100%'>
                                                         <img src="./images/series/01/5.png" alt="" class="--absolute-center" style='max-width: 90%'>
                                                     </div>
                                                 </div>
-                                                <div class="group-item" style='box-shadow: 0 0 0 1px var(--color-grey-400)'>
+                                                <div class="group-item" style='box-shadow: 0 0 0 2px var(--color-grey-400)'>
                                                     <div class='row' style='padding-bottom: 100%'>
                                                         <img src="./images/series/01/6.png" alt="" class="--absolute-center" style='max-width: 90%'>
                                                     </div>
@@ -518,8 +526,8 @@
                                 </div>
                             </div>
 
-                            <div class="row --spacer-top --spacer-400">
-                                <h2 class="page-title --color-text-400 --flex-center --opacity-5 --line-height-200 --padding --padding-700 --text-center --text-2x" style='margin-bottom: -8px;padding-bottom: 0;z-index: 0;'>
+                            <div class="row --spacer-top --spacer-600">
+                                <h2 class="page-title --color-text-400 --flex-center --opacity-6 --line-height-200 --padding-horizontal --padding-700 --text-center --text-2x" style='margin-bottom: -8px;z-index: 0;'>
                                     <span class="--text-crop-both --text-outline --text-uppercase">
                                         Explore growing worlds
                                     </span>
