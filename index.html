@@ -97,7 +97,15 @@
                                 </div>
                             </div>
 
-                            <h1 class="page-title --color-white-400 --flex-center --flex-vertical --line-height-200 --margin-top --margin-600 --text-center --text-uppercase --text-2x" data-bind='{"ref": "about"}' style='font-weight: 500;z-index: 1;'>
+                            <style>
+                                @media only screen and (max-width: 600px) {
+                                    .van {
+                                        --font-size: 32px;
+                                    }
+                                }
+                            </style>
+
+                            <h1 class="page-title van --color-white-400 --flex-center --flex-vertical --line-height-200 --margin-top --margin-600 --text-center --text-uppercase --text-2x" data-bind='{"ref": "about"}' style='font-weight: 500;z-index: 1;'>
                                 "Operation Vanguard"
                             </h1>
 
