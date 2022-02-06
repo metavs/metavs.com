@@ -42,7 +42,7 @@
                 <div class="header-container">
                     <div class="container --flex-horizontal-space-between">
                         <div class="--flex-fill">
-                            <div class="group group--offset-top --margin-600">
+                            <div class="group group--offset-top --margin-700">
                                 <div class="group-item --pointer-events-auto">
                                     <a class="header-logo" href="/">
                                         <img class="header-logo-image" src="./images/logo.png">
@@ -93,109 +93,44 @@
                 </div>
             </header>
 
-            <section class='page --flex-horizontal' data-bind='{"ref": "site.scrolltop"}' style='display: flex;'>
+            <section class='page --flex-center --min-height --min-height-viewport' data-bind='{"ref": "site.scrolltop"}'>
                 <section>
-                    <div class="container --flex-column --max-width-1200px" style='margin-top: 36vh;'>
-                        <div class="row --flex-center">
-                            <div class="row --flex-row">
-                                <div class="--flex-fill" style='position: relative'>
-                                    <div class="border --absolute-center --border-white-400 --border-width-300 --opacity-6"></div>
-                                </div>
-                                <span class="text --color-white-400 --min-width --min-width-120px --flex-center --text-bold --text-uppercase --text-600">
-                                    Series 1
-                                </span>
-                                <div class="--flex-fill" style='position: relative'>
-                                    <div class="border --absolute-center --border-white-400 --border-width-300 --opacity-6"></div>
-                                </div>
-                            </div>
+                    <div class="container --flex-center --max-width-1200px" style='z-index: 1;'>
+                        <div class="row --flex-center --spacer-top --spacer-700"></div>
 
-                            <style>
-                                @media only screen and (max-width: 600px) {
-                                    .van {
-                                        --font-size: 32px;
-                                    }
-                                }
-                            </style>
+                        <video autoplay class='index-hero-video' loop muted>
+                            <source src="./videos/metapass.webm" type="video/webm">
+                        </video>
 
-                            <h1 class="page-title van --color-white-400 --flex-center --flex-vertical --line-height-200 --margin-top --margin-600 --text-center --text-uppercase --text-2x" data-bind='{"ref": "about"}' style='font-weight: 500;z-index: 1;'>
-                                "Operation Vanguard"
-                            </h1>
-
-                            <div class="border --border-white-400 --border-width-300 --margin-top --margin-800 --opacity-6"></div>
-
-                            <span class="page-subtitle --color-white-400 --flex-center --margin-top --margin-600 --text-center --text-uppercase --text-500" style='z-index: 1;'>
-                                10,000 Operators searching ancient lands for the metapack
+                        <h1 class="index-hero-title page-title van --color-white-400 --flex-center --flex-vertical --line-height-200 --text-bold --text-center --text-uppercase --text-1.5x" data-bind='{"ref": "about"}'>
+                            <span class="--text-crop-both">
+                                Metaverse Land Drop
                             </span>
+                        </h1>
 
-                            <div class="--flex-center --margin-top --margin-600">
-                                <div class="button tooltip --background-state --color-state --color-white --min-width-240px --padding-500 --text-bold" data-hover='tooltip' style='--background-300: #ff0786;--background-400: #e6006d;--background-500: #98006d;box-shadow: 0 0 16px var(--background);'>
-                                    Mint
+                        <div class="page-subtitle --color-white-400 --flex-center --margin-top --margin-500 --text-center --text-uppercase --text-500">
+                            <span>
+                                Claim one of <b class="--color-white-400">4,000</b> available worlds within the metaverse
+                            </span>
+                        </div>
 
-                                    <div class="tooltip-message tooltip-message--c --flex-center --not-allowed --text-bold" style='height: 100%;width: 100%;'>
-                                        Coming Soon
-                                    </div>
+                        <div class="--flex-center --margin-top --margin-800">
+                            <div class="button index-hero-mint tooltip --background-primary --background-state --color-state --color-white --padding-500 --text-bold" data-hover='tooltip'>
+                                Mint
+
+                                <div class="tooltip-message tooltip-message--c --flex-center --not-allowed --text-bold --text-uppercase --text-300" style='height: 100%;width: 100%;'>
+                                    Coming Soon
                                 </div>
                             </div>
                         </div>
 
-                        <div class="border --border-white-400 --border-width-300 --opacity-1 --spacer-top --spacer-600"></div>
-
-                        <div class="row --spacer-top --spacer-600">
-                            <div class="group group--grid group--offset-top --margin-900" data-grid="3">
-                                <div class="group-item --flex-center">
-                                    <div>
-                                        <div class="text-list">
-                                            <b class='text --color-white-400 --flex-center --text-600'>
-                                                <span class="--text-crop-top">
-                                                    Collect
-                                                </span>
-                                            </b>
-                                            <span class="text --color-grey-400 --flex-center --margin-300 --opacity-9">
-                                                Battle monsters in our MMORPG
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="group-item --flex-center">
-                                    <div>
-                                        <div class="text-list">
-                                            <b class='text --color-white-400 --flex-center --text-600'>
-                                                <span class="--text-crop-top">
-                                                    Explore
-                                                </span>
-                                            </b>
-                                            <div class="text --color-grey-400 --flex-center --margin-300 --opacity-9">
-                                                <span>
-                                                    Travel across the metaverse on all devices
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="group-item --flex-center">
-                                    <div>
-                                        <div class="text-list">
-                                            <b class='text --color-white-400 --flex-center --text-600'>
-                                                <span class="--text-crop-top">
-                                                    Create
-                                                </span>
-                                            </b>
-                                            <div class="text --color-grey-400 --flex-center --margin-300 --opacity-9">
-                                                Easily drag & drop NFTs in game
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row --spacer-top --spacer-600"></div>
+                        <div class="row --flex-center --spacer-top --spacer-700"></div>
                     </div>
 
-                    <div class='banner --background-black-500' style='background-image: url(./images/hero2.png);background-position: center top;'></div>
-                    <div class='banner' style='background: linear-gradient(0deg, rgba(0,17,19,0.4) 0%, rgba(0,17,19,0) 100%);top: 40vh;'></div>
+                    <div class="row --margin-top --margin-700"></div>
+
+                    <div class='banner' style='background: linear-gradient(0deg, rgba(0,17,19,0.32) 0%, rgba(0,17,19,0) 100%);z-index: 0;'></div>
+                    <div class='banner index-hero-banner --background-transparent' style='background-image: url(./images/hero.png);z-index: -1;'></div>
                 </section>
 
                 <section class="--background --background-grey-400">
@@ -218,7 +153,7 @@
 
                             <div class="row --flex-center --spacer-vertical --spacer-400">
                                 <video autoplay loop muted style='max-width: 600px;width: 100%;z-index: 1;'>
-                                    <source src="./videos/pack-1.webm" type="video/webm">
+                                    <source src="./videos/metapack/1.webm" type="video/webm">
                                 </video>
                             </div>
 
@@ -316,7 +251,7 @@
                                                 Chapter I
                                             </b>
                                             <div class="text --color-grey-300 --flex-center --margin-200 --text-center">
-                                                Release the Series 1 Metapack into the wild for Operators to discover
+                                                Launch Metapass with alongside Series 1 Metapack into the wild for Operators to discover
                                             </div>
                                         </div>
                                     </div>
@@ -333,7 +268,7 @@
                                                 Chapter II
                                             </b>
                                             <div class="text --color-grey-300 --flex-center --margin-200 --text-center">
-                                                Launch battle system for Operators to scan & load their Metapack monsters.
+                                                Launch world editor and exploration with wild monster encounters & partner worlds
                                             </div>
                                         </div>
                                     </div>
@@ -350,7 +285,7 @@
                                                 Chapter III
                                             </b>
                                             <div class="text --color-grey-300 --flex-center --margin-200 --text-center">
-                                                Launch world exploration with wild monster encounters & partner worlds
+                                                Launch battle system for Operators to scan & load their Metapack monsters.
                                             </div>
                                         </div>
                                     </div>
@@ -481,35 +416,6 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                    <!-- <div class="group-item --background --background-grey-400 --border-radius --border-radius-300 --border-width-300 --flex-column" style='width: 180px;'>
-                                        <div class="row" style='border-radius: 8px;overflow: hidden;padding: 1px;'>
-                                            <div class="row" style='padding-bottom: 100%;'>
-                                                <img alt="" class='--absolute-full --background --background-black-500' src="https://pbs.twimg.com/profile_images/1482910907151749122/KpHOCP3z_400x400.jpg" style='height: 100%;width: 100%;'>
-                                            </div>
-                                        </div>
-
-                                        <div class="row --flex-row --margin-top --margin-300 --padding-bottom --padding-horizontal --padding-400">
-                                            <div class="text-list --flex-fill">
-                                                <b class="text --color-text-400 --text-500">
-                                                    Baron Davis
-                                                </b>
-                                                <div class="text --color-text-300 --text-300">
-                                                    Ambassador
-                                                </div>
-                                            </div>
-
-                                            <div class="--flex-vertical">
-                                                <div class="--flex-column">
-                                                    <a class='text --color-primary --color-state --color-text-500' href='https://twitter.com/BaronDavis' target='_blank'>
-                                                        <div class="icon">
-                                                            <svg width="16" height="16" viewBox="0 0 16 16"><path d="M15.559 1.743a6.767 6.767 0 01-2.084.796 3.285 3.285 0 00-5.597 2.992 9.303 9.303 0 01-6.767-3.43A3.28 3.28 0 00.667 3.75a3.276 3.276 0 001.46 2.732 3.217 3.217 0 01-1.486-.41v.043a3.286 3.286 0 002.632 3.219c-.483.133-.989.15-1.482.057a3.29 3.29 0 003.065 2.279A6.583 6.583 0 010 13.029a9.24 9.24 0 005.032 1.474c6.036 0 9.341-5.001 9.341-9.339 0-.143-.005-.284-.012-.426A6.765 6.765 0 0016 3.04a6.725 6.725 0 01-1.889.518 3.314 3.314 0 001.448-1.815z"/></svg>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
 
                                     <div class="group-item --background --background-grey-400 --border-radius --border-radius-300 --border-width-300 --flex-column" style='width: 180px;'>
                                         <div class="row" style='border-radius: 8px;overflow: hidden;padding: 1px;'>
@@ -866,6 +772,7 @@
                     <div class='--background --background-white-400 --flex-fill --padding' data-bind='{"ref": "alert.success.messages"}'></div>
                 </div>
             </div>
+
             <div class="banner --background-black-500" style='background-image: url(./images/background.png);background-position: bottom center;position: fixed;z-index: -2;'></div>
 
             <div class='scrollbar scrollbar--fixed scrollbar--hidden' data-bind='{"ref": "scrollbar.site"}'></div>
